@@ -46,11 +46,11 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
   /* deixa a box alinhada em todos os lados, porém
 	regra css não aplica no top e bottom */
+  max-width: 588px;
   margin: 56px auto 0px;
-
   padding-top: 0 24px;
 }
 
